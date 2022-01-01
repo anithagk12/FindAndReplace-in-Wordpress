@@ -15,7 +15,7 @@ During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
   File "e:\Python\Wordpress.py", line 4, in <module>
-    wp = Client('http://www.python.sport.blog', 'anithagk12@gmail.com','Anuvinayaga@12')
+    wp = Client('http://www.python.sport.blog', 'Password','UserName')
   File "C:\Users\Rksha\AppData\Local\Programs\Python\Python310\lib\site-packages\wordpress_xmlrpc\base.py", line 27, in __init__
     raise ServerConnectionError(repr(e))
 wordpress_xmlrpc.exceptions.ServerConnectionError: <ProtocolError for www.python.sport.blog/RPC2: 301 Moved Permanently>
